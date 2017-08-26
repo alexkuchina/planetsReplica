@@ -89,7 +89,7 @@ function findPlanet() {
 			var name = document.getElementById('name');
 			var hint = document.getElementById('hint');
 			name.textContent = planets[i].name;
-			hint.textContent = "(click on the planet)";
+			hint.textContent = "(Now Click on the planet =>)";
 			var image = document.getElementById('planetLook');
 			image.src = planets[i].picture;
 			image.className = 'animation';
