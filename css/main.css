@@ -1,0 +1,179 @@
+body {
+	background: url(../img/backgr.jpg);
+    text-align: left;
+}
+
+
+
+.animation {
+	position: absolute;
+    top: 30%;
+    left: 60%;
+    margin: 0;
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+form input {
+    border-radius: 10px;
+    height: 50px;
+    width: 230px;
+    font-size: 30px;
+    color: darkblue;
+    border: none;
+    text-align: center;
+    margin: 0;
+    font-family: cursive;
+}
+
+form {
+    padding-top: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 0;
+    border: none;
+    background-color: none;
+    color: aliceblue;
+    margin: 0;
+}
+
+.btn:hover {
+    background-color: none;
+    color: yellow;
+    border: none;
+}
+
+button.btn.btn-primary {
+    padding: 0;
+    margin-top: -15px;
+    border:none;
+    background-color: transparent; ;
+}
+
+h1 {
+    color: azure;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+#hint {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+#enter{
+    color:azure;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#info{
+    color:azure;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+ul {
+    padding: 10px;
+    width: 450px;
+}
+
+ul li {
+    text-align: left;
+    padding: 5px; 0;
+}
+
+#infoBG {
+    background-color: black;
+    border-radius: 5px;
+    padding: 0;
+}
+
+
+/*Media quieries*/
+
+@media (max-width: 950px) {
+    img {
+        width: 300px;
+    }
+
+    #info {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 780px) {
+    .container {
+        text-align: center;
+    }
+
+    img {
+        width: 200px;
+    }
+
+    #info {
+        font-size: 12px;
+    }
+
+    .animation {
+    position: static;
+    margin: 0;
+    }
+
+    #infoBG {
+        width: 350px;
+    }
+}
+
+@media (max-width: 580px) {
+    .animation {
+    position: static;
+    margin: 0;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .container {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
