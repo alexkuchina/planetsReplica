@@ -72,7 +72,8 @@ h1 {
 }
 
 #hint {
-    font-size: 12px;
+    font-size: 30px;
+    padding-top: 30px;
     color: aliceblue;
 }
 
